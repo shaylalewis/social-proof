@@ -1,0 +1,115 @@
+/* ================================= 
+  CSS Custom Properties
+==================================== */
+
+:root {
+    /* ---- Colors ---- */
+    --clr-primary-500: hsl(300, 43%, 22%);
+    /*Very Dark Magenta*/
+    --clr-primary-200: hsl(333, 80%, 67%);
+    /*Soft Pink*/
+    --clr-netural-300: hsl(303, 10%, 53%);
+    /*Dark Grayish Magenta*/
+    --clr-neutral-200: hsl(300, 24%, 96%);
+    /*Light Grayish Magenta*/
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    /*White*/
+    /* ---- Font Family ---- */
+    --ff-primary: 'Spartan', sans-serif;
+    /* ---- Font Size ---- */
+    --fs-400: .8125rem;
+    --fs-500: .9625rem;
+    --fs-900: 2rem;
+}
+
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+p.rate {
+    padding-top: 15px;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+h1 {
+    color: var(--clr-primary-500);
+}
+
+
+/* unvisited link */
+
+a:link {}
+
+
+/* visited link */
+
+a:visited {}
+
+
+/* mouse over link */
+
+a:hover {}
+
+
+/* selected link */
+
+a:active {}
+
+
+/* ---- Layout Containers ---- */
+
+.rate-one,
+.rate-two,
+.rate-three {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    min-height: 55px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--clr-neutral-100);
+}
+
+.ratings,
+.rate-two,
+.rate-three {
+    margin-top: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* ---- Page Elements ---- */
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}

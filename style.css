@@ -4,18 +4,15 @@
 
 :root {
     /* ---- Colors ---- */
-    --clr-primary-500: hsl(300, 43%, 22%);
-    /*Very Dark Magenta*/
-    --clr-primary-200: hsl(333, 80%, 67%);
-    /*Soft Pink*/
-    --clr-netural-300: hsl(303, 10%, 53%);
-    /*Dark Grayish Magenta*/
-    --clr-neutral-200: hsl(300, 24%, 96%);
-    /*Light Grayish Magenta*/
-    --clr-neutral-100: hsl(0, 0%, 100%);
-    /*White*/
+    --clr-primary-500: hsl(300, 43%, 22%);/*Very Dark Magenta*/
+    --clr-primary-200: hsl(333, 80%, 95%); /*Soft Pink*/
+    --clr-netural-300: hsl(303, 10%, 53%); /*Dark Grayish Magenta*/
+    --clr-neutral-200: hsl(300, 24%, 96%); /*Light Grayish Magenta*/
+    --clr-neutral-100: hsl(0, 0%, 100%); /*White*/
+
     /* ---- Font Family ---- */
     --ff-primary: 'Spartan', sans-serif;
+
     /* ---- Font Size ---- */
     --fs-400: .8125rem;
     --fs-500: .9625rem;
@@ -42,6 +39,16 @@ a {
 p.rate {
     padding-top: 15px;
 }
+
+p.verified {
+    color: var(--clr-netural-300);
+}
+
+p.name {
+    color: var(--clr-neutral-200);
+}
+
+
 
 
 /* ================================= 
@@ -84,12 +91,33 @@ a:active {}
     padding: 30px;
     margin: auto;
     text-align: center;
-    background-color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-200);
 }
 
 .ratings,
 .rate-two,
 .rate-three {
+    margin-top: 15px;
+}
+
+.reviews {
+    margin-top: 40px;
+}
+
+.colton,
+.irene,
+.anne {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--clr-primary-500);
+}
+
+.irene,
+.anne {
     margin-top: 15px;
 }
 

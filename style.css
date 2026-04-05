@@ -167,6 +167,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     padding: 4rem;
+    gap: 7rem;
   }
 
   header {
